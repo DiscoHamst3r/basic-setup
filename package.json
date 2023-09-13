@@ -13,8 +13,8 @@
     "styled-components": "^5.1.1"
   },
   "scripts": {
-    "start": "concurrently \"react-scripts start\" \"yarn --cwd ./server start\"",
-    "start-npm": "concurrently \"react-scripts start\" \"npm start --prefix ./server\"",
+    "start": "concurrently \"react-scripts --openssl-legacy-provider start\" \"yarn --cwd ./server start\"",
+    "start-npm": "concurrently \"react-scripts --openssl-legacy-provider start\" \"npm start --prefix ./server\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
